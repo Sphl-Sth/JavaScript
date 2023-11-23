@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="try2.css">
+</head>
+<body>
+<!------------------------------------------------------>
+<!----------------header section------------------------>
+<!------------------------------------------------------>
+    <div id="header">
+
+        <div class="container">
+                <nav>
+                    <img src="images/profile.png" class="logo">
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact"">Contacts</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-row">
+                    <div class="header-text-img">
+                        <img src="images/gallery/1.jpg" height="400" width="400">
+                    </div>
+                    <div class="header-text">
+                        <h2>Hello, It's me</h2>
+                        <h1>Sophil Sthapit</h1>
+                        <p> And I am a <span> BCA - Cyber Security Student</span></p><br><br><br>
+                        <a href="sophil.pdf" download class="cvbutton">Download CV</a>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+<!-------------------------------------------------------->
+<!----------------about me section------------------------>
+<!-------------------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row ">
+                
+                <div class="about-col1">
+                    <h1 class="subtitle">Who Am I</h1>
+                    <p class="info"> 
+                        I am  <u>Sophil Sthapit</u>, 
+                        currently enrolled as a Cyber Security student at <span class="'uni"><i>Jain (deemed-to-be) University</i></span>.
+                         Driven by a deep enthusiasm for information security,
+                          I am committed to forging a career in this ever-evolving domain. 
+                          My proactive approach ensures I remain well-informed about the latest advancements,
+                           and I thrive as a collaborative learner. 
+                           I eagerly anticipate the opportunity to apply my skills to bolster cybersecurity and safeguard digital assets.
+                    </p>
+
+                         <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                         </div>
+
+                         <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li> <span>Malpi International School</span><br>Secondary Education Exam (SEE)</li>
+                                <li> <span>GEMS Institute of Higher Education</span><br><u>A-levels:</u> Cambridge Assessment International Education (CAIE)</li>
+                                <li> <span>Jain (deemed-to-be) University</span><br>BCA - Cyber Security</li>
+
+                            </ul>
+                        </div>
+
+                         <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Java</span><br>★ ★ ★ ☆ ☆</li>
+                                <li><span>JavaScript, HTML and CSS</span><br>★ ★ ★ ☆ ☆</li>
+                                <li><span>SQL</span><br>★ ★ ★ ☆ ☆</li>
+                                <li><span>C Language</span><br>★ ★ ★ ☆ ☆</li>
+                                <li><span>Photoshop</span><br>★ ★ ★ ☆ ☆</li>
+                                <li><span>Canva</span><br>★ ★ ★ ★ ☆</li>
+
+
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li> <span>3 Months Internship at Digital Nepal Service</span><br>Worked as a social media marketing intern</li>
+                                <li> <span>Editor of the GEMS magazine</span><br>Worked Under the IT head</li>
+                                <li> <span>Web Development</span><br>Practiced web development during A-levels</li>
+
+                            </ul>
+                         </div>
+                </div>
+                <div class="about-col2">
+                    <img src="images/gallery/2.jpg">
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+<!------------------------------------------------------->
+<!----------------Gallery Section------------------------>
+<!------------------------------------------------------->
+
+<div id="gallery">
+
+    <h1>Gallery</h1>
+
+    <div class="gallery-row">
+            <img src="images/IMG-20231105-WA0001.jpg" height="360" width="250">
+            <img src="images/IMG-20231105-WA0002.jpg" height="360" width="220">
+            <img src="images/IMG-20231105-WA0003.jpg" height="360" width="270">
+            <img src="images/IMG-20231105-WA0004.jpg" height="360" width="270">
+            <img src="images/random.jpg" height="360" width="360">
+            <img src="images/WhatsApp Image 2023-11-05 at 12.50.50_b0dc8e47.jpg" height="360" width="220">
+            <img src="images/WhatsApp Image 2023-11-05 at 12.50.51_bbf0e144.jpg" height="360" width="360">
+
+
+    </div>
+</div>
+
+<!---------------------------------------------------------->
+<!----------------Contact Me Section------------------------>
+<!---------------------------------------------------------->
+    
+<div id="contact">
+    <center><h1 class="get">Get in Touch</h1></center>
+    <div class="containers">
+            <div class="contact-left">
+                <h1>My Contact Details:</h1>
+                <p>Email: sophilsthapit@gmail.com</p>
+                <p>Phone No: +917975151290</p><br>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter your Full Name" required class="inp"><br><br>
+                    <input type="text" name="Email" placeholder="Enter your Email" required class="inp"><br><br>
+                    <input type="text" name="Message" placeholder="Your Message" required class="inp2"><br><br>
+                    <button type="submit" class="button">Submit</button><br><br>
+                </form>
+                <p id="msg"></p>
+            </div>
+        </div> 
+    </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+<!-------------------------------------------------------->
+<!----------------Function section------------------------>
+<!-------------------------------------------------------->
+    
+    
+    <script>
+        var tablinks = document.getElementsByClassName("active-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzn-1YpgD6J9O_5YSo8SbYbflEDhj1a59ERIW9vpCK6c8uIOBArOSq7Y2X-c6LktExKrw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Successfully Sent"
+                setTimeout(function (){
+                    msg.innerHTML=""
+                },1000)
+                form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+</body>
+</html>
