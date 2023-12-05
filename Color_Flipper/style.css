@@ -1,0 +1,18 @@
+
+.heading{
+    text-align: center;
+    font-family: 'Doris', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+#changeButtons{
+    margin: 0 800px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#changeButtons:hover{
+    background-color: gray;
+    opacity: 0.9;
+}
