@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-do-list | Sophil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header"> To-do-list</h1>
+
+    <div class="addlist">
+        <!---Taking input from the user-->
+
+        <form id="inputForm">
+            <input type="text" id="task" placeholder="Enter a new task" required>
+            <button type="button" class="click" onclick="addTask()">Add task </button>
+        </form>
+
+        <ul id="list"></ul>
+        <button class="taskdel" onclick="delTask()">DELETE ALL </button>
+
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
