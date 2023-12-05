@@ -1,0 +1,38 @@
+html{
+background-color: rgb(211, 211, 211);
+}
+
+
+.header{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: 'Boris', sans-serif;
+    background-color: rgb(255, 81, 0);   
+    border-radius: 25px;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 600px;
+
+}
+.click{
+    padding: 40px 100px;
+    border-radius: 25px;
+    margin: 0 40px;
+    cursor: pointer;
+
+}
+.click:hover{
+    background-color: darkgray;
+}
+
+#showRes{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Boris', sans-serif;
+}
